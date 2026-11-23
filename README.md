@@ -61,9 +61,13 @@ flowchart TD
 ```
 
 # 29/10 M01 - batchGD regression
++ Bài tập về kết quả của neuron biểu diễn ra sao giữa không và có hàm kích hoạt
++ Vẫn đi theo chain rule bình thường
++  forward pass --> đạo hàm hàm kích hoạt --> tính gradient --> cập nhật tham số
+### Nhận xét trong bài : Gradient của sigmoid có thêm thành phần đạo hàm , dữ liệu bài toán thấy không phù hợp với hàm kích hoạt sigmoid, nên là neuron tuyến tính không có hàm kích hoạt trong bài toán hồi quy này tốt hơn vì đầu ra cần dự đoán là các giá trị thực không giới hạn trong khoản(0,1)
 
 # 2/11 proposal và BTL01 funtion approximation
-
++ 
 # 14/11 M02 - Mock_MLP
 
 # 19/11 bài tập CNN và MLP + M03-SGD và RNN 
