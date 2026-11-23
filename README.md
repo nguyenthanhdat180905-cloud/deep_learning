@@ -20,13 +20,13 @@
 + Lấy giá trị x nhân với trọng số W ta được đoạn thẳng tùy vào x hay trọng số mà nó thay đổi đường đi
 + x nhân trọng số rồi cộng thêm bias nữa thì đoạn thẳng có thể đi lên đi xuống trên trục
 + x nhân trọng số cộng bias và thêm hàm kích hoạt để bẻ công đường thẳng y =mx+b thì ra neuron
-'''mermaid
+```mermaid
 graph TD;
 x-->*w;
 w-->+b;
 (x*w)+b-->Activate funt;
 Activate funt-->Neuron;
-'''
+```
 # 1/11 bài tập 4: MLP và mạng học sâu 
 # 23/9 Lab02:
 # 29/10 M01 - batchGD regression
