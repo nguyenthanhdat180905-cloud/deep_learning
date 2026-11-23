@@ -12,7 +12,7 @@
 + Hồi quy là phương pháp mô hình hóa quan hệ giữa các biến/đặc trưng để có thể quyết định giá trị cho 1 biến/đặc trưng muốn tìm
 + Được kết hợp với đường tuyết tính trải dài qua tất cả kết quả dự đoán , để dùng các độ đo MSE RMSE để xét kết quả
 
-# 12/10 hồi quy logistic và đồ thị tính toán 
+# 12/10 Bài tập2: hồi quy logistic và đồ thị tính toán 
 + Cũng như hồi quy tuyến tính , Logistic thì nó khác chỗ , tuyến tính thì nó dự đoán 1 giá trị bởi nhiều biến , logicstic thì bẻ cong cái đường tuyến tính thì cái chữ S để nó trả lời cho câu hỏi Yes or No
 + Được học thêm code vẽ đồ thị
 
@@ -30,12 +30,46 @@ graph TD;
     z --> Activate_func["Activation Function"];
     Activate_func --> Neuron["Neuron"];
 ```
++ Nếu cho các lớp neuron học bởi lớp neuron khác và xếp chồng lên nhau thành nhiều tầng sẽ cho ra mạng học sâu
+  
 # 1/11 bài tập 4: MLP và mạng học sâu 
-# 23/9 Lab02:
++ Mạng MLP có 3 bước tính toán chính
+```mermaid
+graph TD;
+    x[forward]-->w[update w];
+    w-->b[Backpropagation];
+```
++ lặp lại trên nhiều epoch đã dần dần tự chỉnh sửa lại các trọng số là gradient descent rồi quy luật sẽ được học và rõ ràng hơn
+  
+# 23/9 Lab02: Quy trình máy học 
++ load data --> explore data --> clean data --> remove invalid data --> visualize --> prepare data --> fill nan bằng giá trị median --> train model --> so sánh mô hình với nhãn bằng độ đo --> triển khai với bộ dữ liệu mới tự nhập
+```mermaid
+flowchart TD
+    A["Load Data"] --> B["Explore Data (EDA)"]
+    B --> C["Clean Data"]
+    C --> D["Remove Invalid Data"]
+    D --> E["Visualize Data"]
+    E --> F["Prepare Data"]
+    F --> G["Fill NaN Values<br/>Using Median"]
+    G --> H["Train Model"]
+    H --> I["Compare Predictions<br/>with Ground Truth"]
+    I --> J["Evaluate Model<br/>Using Metrics"]
+    J --> K["Deploy Model"]
+    K --> L["Input New Dataset<br/>by User"]
+    L --> M["Predict Results"]
+    M --> N["Display Prediction"]
+```
+
 # 29/10 M01 - batchGD regression
+
 # 2/11 proposal và BTL01 funtion approximation
+
 # 14/11 M02 - Mock_MLP
+
 # 19/11 bài tập CNN và MLP + M03-SGD và RNN 
+
 # 28/11 BTL02: nhận dạng cảm xúc
+
 # 29/11 BTL03- chuyển code kerras sang pytorch 
+
 
