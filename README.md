@@ -1,6 +1,6 @@
 # deep_learning
 # 16/9 EX-LT01 và Lab01: Đọc báo về học sâu và làm quen với pytorch
-## ngày đầu tiên được học về học sâu , được xét những gì đã đọc của tác giả yannLecun thì học sâu nó khác học máy ở chỗ (cần được học hiểu nhiều hơn)
+## ngày đầu tiên được học về học sâu , được xét những gì đã đọc của tác giả yannLecun thì học sâu nó khác học máy ở nhiều chỗ so với học máy (cần được học hiểu nhiều hơn)
 + Đưa bài toán đời thực vào code thì phải viết cả trăm cái quy tắc răng đe mà chưa chắc đúng
 + Học máy thì cho máy tính học bài toán thực tế theo mô hình với nhiều tham số chỉnh sửa
 + Học sâu 1 sự khác biệt lớn là máy tính nó lại tự học bằng đặc trưng (rất là đáng chú ý)
