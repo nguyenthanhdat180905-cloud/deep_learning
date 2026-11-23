@@ -22,10 +22,10 @@
 + x nhân trọng số cộng bias và thêm hàm kích hoạt để bẻ công đường thẳng y =mx+b thì ra neuron
 ```mermaid
 graph TD;
-x-->*w;
-w-->+b;
-(x*w)+b-->Activate funt;
-Activate funt-->Neuron;
+    x-->*w;
+    w-->+b;
+    (x*w)+b-->Activate funt;
+    Activate funt-->Neuron;
 ```
 # 1/11 bài tập 4: MLP và mạng học sâu 
 # 23/9 Lab02:
